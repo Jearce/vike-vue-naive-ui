@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite build && vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vike": "^0.4.191",
+    "vike-vue": "0.8.2-commit-6c63604",
+    "vite": "^5.4.2",
+    "vue": "^3.4.38"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@css-render/vue3-ssr": "^0.15.14",
+    "naive-ui": "^2.39.0"
+  }
+}
