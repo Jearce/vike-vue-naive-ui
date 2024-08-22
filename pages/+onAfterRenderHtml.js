@@ -1,3 +1,4 @@
+import { h } from 'vue'
 import { useConfig } from 'vike-vue/useConfig'
 
 export { onAfterRenderHtml }
@@ -5,5 +6,10 @@ export { onAfterRenderHtml }
 function onAfterRenderHtml(pageContext){
   const config = useConfig()
   const css = pageContext.collect()
-  config({ head: { dangerouslyInject: css } })
+  config({ 
+    Head: h('style', {
+      type: '',
+      innerHTML: css
+    })
+  })
 }
