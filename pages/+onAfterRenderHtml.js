@@ -8,7 +8,6 @@ function onAfterRenderHtml(pageContext){
   const css = pageContext.collect()
   config({ 
     Head: h('style', {
-      type: '',
       innerHTML: css
     })
   })
