@@ -7,7 +7,7 @@ function onAfterRenderHtml(pageContext){
   const config = useConfig()
   const css = pageContext.collect()
   config({ 
-    Head: h('style', {
+    Head: h('fragment', {
       innerHTML: css
     })
   })
