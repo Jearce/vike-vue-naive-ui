@@ -5,4 +5,4 @@
 [NaiveUI](https://www.naiveui.com/) integration for Vike.
 
 @todo Example
-@todo Version history
+Version history: [CHANGELOG.md](https://github.com/vikejs/vike-vue-naive-ui/blob/main/CHANGELOG.md)
