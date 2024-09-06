@@ -1,8 +1,6 @@
-<!-- WARNING: keep links absolute in this file so they work on NPM too -->
+[Vike extensions](https://vike.dev/extensions) for [Vue](https://vuejs.org).
 
-# `vike-vue-naive-ui`
-
-[NaiveUI](https://www.naiveui.com/) integration for Vike.
-
-@todo Example
-Version history: [CHANGELOG.md](https://github.com/vikejs/vike-vue-naive-ui/blob/main/CHANGELOG.md)
+- `vike-vue-naive-ui`
+  - Docs: [vike.dev/vike-vue](https://vike.dev/naive-ui)
+  - Version history: [CHANGELOG.md](packages/vike-vue-naive-ui/CHANGELOG.md)
+  - Source code: [packages/vike-vue/](packages/vike-vue-naive-ui)
