@@ -4,6 +4,6 @@ import vike from 'vike/plugin'
 export default {
   plugins: [vue(), vike()],
   ssr: {
-    noExternal: ['naive-ui', 'vueuc', 'date-fns']
-  }
+    noExternal: ['naive-ui', 'vueuc', 'date-fns'],
+  },
 }

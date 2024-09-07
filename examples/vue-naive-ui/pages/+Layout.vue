@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-  import { NConfigProvider } from 'naive-ui'
+import { NConfigProvider } from 'naive-ui'
 </script>
 
 <style>

@@ -9,14 +9,14 @@ export default {
     'vike-vue': '>=0.8.3',
   },
   onBeforeRenderHtml: 'import:vike-vue-naive-ui/__internal/integration/setupCssCollect:setupCssCollect',
-  onAfterRenderHtml: 'import:vike-vue-naive-ui/__internal/integration/addCollectedCss:addCollectedCss'
+  onAfterRenderHtml: 'import:vike-vue-naive-ui/__internal/integration/addCollectedCss:addCollectedCss',
 }
 
 declare global {
   namespace Vike {
     interface PageContext {
       app?: App
-      collect: ()=>string
+      collect: () => string
     }
   }
 }

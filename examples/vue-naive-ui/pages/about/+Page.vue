@@ -6,5 +6,5 @@
 </template>
 
 <script setup lang="ts">
-  import { NH1, NP, NAlert } from 'naive-ui'
+import { NH1, NP, NAlert } from 'naive-ui'
 </script>
